@@ -15,6 +15,7 @@ export default function Table({
     prepareRow,
     visibleColumns,
   } = useTable(
+    
     {
       columns,
       data,
