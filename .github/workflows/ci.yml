@@ -41,8 +41,8 @@ jobs:
     - name: Build
       run: npm run build
       
-    - name: Jest Coverage Comment
-      uses: ArtiomTr/jest-coverage-report-action@v2
+    - name: Coveralls
+      uses: coverallsapp/github-action@v2
     # - name: Run Coverage
     #   uses: codecov/codecov-action@v4
     #   with:
