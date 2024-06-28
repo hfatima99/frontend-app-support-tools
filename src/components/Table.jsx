@@ -23,7 +23,7 @@ export default function Table({
       },
     },
     useSortBy,
-    useExpanded, // Using useExpanded to track the expanded state
+    useExpanded,
   );
 
   return (
